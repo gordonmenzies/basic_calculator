@@ -5,9 +5,11 @@
         - no decimal function 
     
     ** TO DO 
-        - Add Decimal Function 
+        - Add Decimal Function
+        - Add Negative Function 
         - Improve Display 
-        - Update Colours 
+        - Update Colours  
+        - Refactor and remove all the extra methods
 
 */
 
@@ -24,7 +26,7 @@ function storeFirstNumber(input) {
     
     number = parseInt(displayString)
     method = input;
-
+    calculate = true;
     displayString = ""
     calculateString.length = 0
     document.getElementById("display").innerHTML = displayString
@@ -54,7 +56,6 @@ function buttonClickClear() {
 // Equal Button
 
 function buttonClickEquals() {
-    calculate = true
     numberTwo = parseInt(displayString)
     console.log("calculate = " + calculate)
     console.log("number = " + number)
@@ -76,6 +77,7 @@ function buttonClickEquals() {
     displayString = number
     console.log("final answer = " + displayString)
     numberTwo = 0
+    calculateString.length = 0
     calculate = false
   }
   document.getElementById("display").innerHTML = displayString

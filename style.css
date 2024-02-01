@@ -1,5 +1,17 @@
+* {
+    color: #ffffff;    
+}
+
+body {
+    background-color: rgb(142, 139, 135);
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+
+
 h1 {
-    color: white;
+    color: rgb(165, 139, 192);
     font-size: 2rem;
     padding-top: 5%;
 }
@@ -7,13 +19,13 @@ h1 {
 .app {
     height: 30rem;
     width: 25rem;
-    background-color: red;
+    background-color:  rgb(104, 69, 23);
     position: relative;
     border-radius: 5px;
 }
 
 .top {
-    background-color: blue;
+    background-color: rgb(64, 64, 117);
     height: 7rem;
     position: relative;
     border-radius: 5px;
@@ -21,20 +33,28 @@ h1 {
 }
 
 .display {
-    background-color: aqua;
+    background-color: rgb(29, 29, 29);
     height: 60%;
     width: 90%;
     margin-left: 20px;
     margin-top: 22.4px;
     position: absolute;
     border-radius: 5px;
+    text-align: end;
+    
+}
+
+.display h4 {
+    text-align: end;
+    font-size: 3rem;
+    margin-top: 10px
 }
 
 .numbers {
     position: relative;
     padding-top: 2%;
     padding-left: 2%;
-    background-color: aqua;
+    background-color:  rgb(81, 81, 81);
     width: 100%;
     height: 100%;
     position: absolute;
